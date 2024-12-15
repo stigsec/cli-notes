@@ -2,7 +2,7 @@ import argparse
 from datetime import datetime
 from notes_helper import *
 
-notesPath = 'D:\\TOOLS\\notes\\notes.json'
+notesPath = #Your path to a notes.json file, eg. C:\\Personal\\notes.json
 
 parser = argparse.ArgumentParser(description="Simple and quick CLI notes app", epilog="by stigsec")
 subparsers = parser.add_subparsers(dest='mode', help="Mode of operation")
